@@ -1,3 +1,15 @@
+core_customer:
+    resource: "@CoreBundle/Controller/CustomerController.php"
+    type:     annotation
+
+sales:
+    resource: "@SalesBundle/Resources/config/routing.xml"
+    prefix:   /
+
+core:
+    resource: "@CoreBundle/Resources/config/routing.xml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
